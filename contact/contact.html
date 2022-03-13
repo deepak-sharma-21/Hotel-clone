@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +19,6 @@
         
     </style> -->
 </head>
-
 <body>
     <section class="head_section">
         <div class="navbar">
@@ -30,21 +28,16 @@
             </div>
             <div class="right_part">
                 <ul>
-                    <li>
-                        <a href="../index.html" style="text-decoration: none;">Home</a>
-                    </li>
-                    <li>
-                        <a href="../rooms/rooms.html" style="text-decoration: none;">Rooms </a>
-                    </li>
-                    <li><a href="../dining/dining_page.html" style="text-decoration: none;">Dining</a></li>
-                    <li><a href="../about_us/about.html" style="text-decoration: none;">About</a></li>
-                    <li><a href="contact.html" style="text-decoration: none;">Contact</a></li>
+                    <li>Home</li>
+                    <li>Rooms</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
                     <!-- <p class="hamburger">&#9776;</p> -->
                 </ul>
                 <!-- <p class="hamburger">&#9776;</p> -->
             </div>
         </div>
-
+    
         <div id="above_background_img">
             <img src="ximg_bg_5.jpg.pagespeed.ic.8vxyMrzQOc.jpeg" id="img_background_above">
             <div id="color_for_above_img"></div>
@@ -52,8 +45,8 @@
                 <h3>Get in touch</h3>
                 <h1>Contact Us</h1>
             </div>
-        </div>
-
+        </div>    
+        
     </section>
     <div id="contactSection">
         <div id="form_div">
@@ -66,7 +59,8 @@
                                 <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
                                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                               </svg>
-                        </i></span>198 West 21th Street,<br> Suite 721 New York NY 10016</p>
+                        </i></span>198 West 21th Street,<br>
+                            Suite 721 New York NY 10016</p>
                     </div>
 
                     <div>
@@ -75,7 +69,7 @@
                                 <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
                                 <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                               </svg>
-                        </i></span><a href="tel://1234567920">+ 1235 2355 98</a></p>
+                        </i></span><a href="tel://1234567920">+ 1235 2355 98</a></p>    
                     </div>
 
                     <div>
@@ -130,13 +124,13 @@
     <div id="map">
         <div class="error">
             <section>
-                <div id="icon"><img src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" alt=""></div>
+                <div id="icon"><img src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" alt=""></div>   
                 <div id="sorry">Sorry! Something went wrong.</div>
                 <div id="errinfo">This page didn't load Google Maps correctly. See the JavaScript console for technical details.</div>
             </section>
         </div>
     </div>
-
+    
     <!-- footer code start here  -->
 
     <section class="footer">
@@ -158,7 +152,7 @@
                 </form>
             </div>
         </div>
-
+    
         <footer>
             <div id="footer_infor">
                 <div class="footer_card">
@@ -179,7 +173,7 @@
                         </ul>
                     </div>
                 </div>
-
+    
                 <div class="footer_card">
                     <h2 id="footer_card_quick">Quick Links</h2>
                     <ul>
@@ -188,20 +182,20 @@
                         <li class="li_footer">Restaurants</li>
                         <li class="li_footer">Beach & Resorts</li>
                     </ul>
-
-
+    
+    
                 </div>
-
+    
                 <div class="footer_card">
                     <h2 id="footer_card_quick">Recents Blog Post</h2>
                     <ul>
                         <li class="li_footer">The Ultimate Packing List For Female Travelers</li>
                         <li class="li_footer">How These 5 People Found The Path to Their Dream Trip</li>
                         <li class="li_footer">A Definitive Guide to the Best Dining and Drinking Venues in the City</li>
-
+    
                     </ul>
                 </div>
-
+    
                 <div class="footer_card">
                     <h2 id="footer_card_quick">Contact Information</h2>
                     <ul>
@@ -217,48 +211,42 @@
             </div>
         </footer>
     </section>
-
+    
 
 
     <script>
         var form = document.querySelector('form');
-        form.addEventListener('submit', readMessage);
+        form.addEventListener('submit',readMessage);
 
-        function readMessage(event) {
+        function readMessage(event){
             event.preventDefault();
             var fname = document.getElementById('fname').value;
-            if (fname === "") {
+            if(fname === ""){
                 alert('Firstname cannot be empty')
                 return
             }
             var lname = document.getElementById('lname').value;
             var sub = document.getElementById('sub').value;
-            if (sub === "") {
+            if(sub === ""){
                 alert('Subject cannot be empty')
                 return
             }
             var email = document.getElementById('email').value;
-            if (email === "") {
+            if(email === ""){
                 alert('Email cannot be empty')
                 return
             }
             var message = document.getElementById('message').value;
-            if (message === "") {
+            if(message === ""){
                 alert('Message cannot be empty')
                 return
             }
 
-            console.log(fname, lname, email, sub, message)
-            var data = {
-                fname,
-                lname,
-                email,
-                sub,
-                message
-            }
+            console.log(fname,lname,email,sub,message)
+            var data = {fname,lname,email,sub,message}
             var data = JSON.stringify(data);
-
-            localStorage.setItem(email, data)
+            
+            localStorage.setItem(email,data)
             console.log(localStorage)
         }
     </script>
@@ -267,7 +255,7 @@
         hamburger.addEventListener("click", show_nav);
         var nav = document.querySelector(".right_part");
         // var cancel = document.querySelector(".cancel");
-
+    
         function show_nav() {
             // console.log(nav.style.display)
             if (nav.style.display == "table-column") {
@@ -280,11 +268,11 @@
                 // nav.style.top = "-100%";
                 hamburger.innerHTML = "&#9776"
                     // console.log("none")
-
+    
             }
-
+    
         }
-
+    
         function close() {
             console.log("cancel clicked")
             nav.style.display = "none";
@@ -292,5 +280,4 @@
         }
     </script>
 </body>
-
 </html>
